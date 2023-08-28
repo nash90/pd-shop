@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { ResData } from "../../../pg-core/type/ResData";
+import { ResData } from "../../../pd-core/type/ResData";
 import { ResShop, ShopRequest } from "../type";
-import { getTokenPlayloadAndValidateUser } from "../../../auth/utils/AuthHelpers";
+import { getTokenPlayloadAndValidateUser } from "../../../pd-auth/utils/AuthHelpers";
 import { buyShopItem, getAllActiveItems } from "../service/shopItemService";
 
 export const shopBuyHandler = async (

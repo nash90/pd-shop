@@ -1,6 +1,6 @@
-import { INSUFFICIENT_GIFT_POINTS_TO_BUY, INSUFFICIENT_USD_TO_BUY, SHOP_ITEM_NOT_AVAILABLE, SHOP_ITEM_NOT_FOUND, SHOP_ITEM_SOLD_OUT, USER_NOT_FOUND_FOR_PLAYER } from "../../../pg-core/error/errorMessages"
-import { db, userRef} from "../../../pg-core/backend/db/client";
-import { UserModel } from "../../../pg-core/backend/db/UserModel";
+import { INSUFFICIENT_GIFT_POINTS_TO_BUY, INSUFFICIENT_USD_TO_BUY, SHOP_ITEM_NOT_AVAILABLE, SHOP_ITEM_NOT_FOUND, SHOP_ITEM_SOLD_OUT, USER_NOT_FOUND_FOR_PLAYER } from "../../../pd-core/error/errorMessages"
+import { db, userRef} from "../../../pd-core/backend/db/client";
+import { UserModel } from "../../../pd-core/backend/db/UserModel";
 import { ShopActivityModel, ShopItemModel, ShopStatsModel } from "./model";
 import { shopItemRef, shopStatsRef } from "./client";
 import { BuyActivityType, ShopCurrencyType } from "../type";

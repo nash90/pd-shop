@@ -1,6 +1,6 @@
-import { ResData } from "../../../pg-core/type/ResData"
-import { handleBadResponseFromServer } from "../../../pg-core/error/errorHelpers"
-import { UNKNOWN_API_RESPONSE_DATA } from "../../../pg-core/error/errorMessages"
+import { ResData } from "../../../pd-core/type/ResData"
+import { handleBadResponseFromServer } from "../../../pd-core/error/errorHelpers"
+import { UNKNOWN_API_RESPONSE_DATA } from "../../../pd-core/error/errorMessages"
 import { ResShop, ShopRequest } from "../../backend/type"
 
 export const getShopItemsApi = async (pubKey: string) => {

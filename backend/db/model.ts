@@ -1,4 +1,4 @@
-import { CustomDate } from "../../../pg-core/backend/db/model";
+import { CustomDate } from "../../../pd-core/backend/db/model";
 import { BuyActivityType, ShopCurrencyType, ShopItemType } from "../type";
 
 export interface ShopItemModel {

@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { ShopItemModel } from '../../backend/db/model';
-import { SmallImageMemo } from '../../../pg-core/frontend/components/common/SmallImage';
+import { SmallImageMemo } from '../../../pd-core/frontend/components/common/SmallImage';
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, useTheme } from '@mui/material';
 import { SOLD_OUT_IMAGE_LINK, getShoppingCurrency } from '../../backend/helper';
 import { ShopCurrencyType } from '../../backend/type';

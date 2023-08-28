@@ -1,5 +1,5 @@
 import { buyAnyWithGiftpoints, buyExpPackWithGiftpoints, buyGiftPointsWithUsd, buyUsdWithGiftpoints, buyWhitelistWithGiftpoints, getAllActiveShopItems, getShopItem } from "../db/shopItemCollection"
-import { SHOP_ITEM_NOT_AVAILABLE, SHOP_ITEM_NOT_FOUND, SHOP_ITEM_TYPE_NOT_FOUND } from "../../../pg-core/error/errorMessages";
+import { SHOP_ITEM_NOT_AVAILABLE, SHOP_ITEM_NOT_FOUND, SHOP_ITEM_TYPE_NOT_FOUND } from "../../../pd-core/error/errorMessages";
 import { ShopItemType } from "../type";
 
 const getAllActiveItems = () => {

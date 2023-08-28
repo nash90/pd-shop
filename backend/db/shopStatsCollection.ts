@@ -1,4 +1,4 @@
-import { db } from "../../../pg-core/backend/db/client";
+import { db } from "../../../pd-core/backend/db/client";
 import { shopStatsRef } from "./client";
 import { ShopStatsModel } from "./model";
 

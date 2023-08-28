@@ -1,4 +1,4 @@
-import { discordWebhookClient, getDevKeyForDiscord } from "../../../pg-core/backend/service/discordService";
+import { discordWebhookClient, getDevKeyForDiscord } from "../../../pd-core/backend/service/discordService";
 import { ShopActivityModel } from "../db/model";
 import { ShopCurrencyType } from "../type";
 

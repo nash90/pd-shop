@@ -1,4 +1,4 @@
-import { getDbRefByDate } from "../../../pg-core/backend/db/client";
+import { getDbRefByDate } from "../../../pd-core/backend/db/client";
 import { shopActivityCollectionBase } from "./client";
 import { ShopActivityModel } from "./model";
 

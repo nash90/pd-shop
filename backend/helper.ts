@@ -1,4 +1,4 @@
-import { getWeekOfTheYear, removeOldWeeklyKeys } from "../../pg-core/utils/helpers"
+import { getWeekOfTheYear, removeOldWeeklyKeys } from "../../pd-core/utils/helpers"
 import { ShopCurrencyType, ShopItemType } from "./type"
 
 export const SOLD_OUT_IMAGE_LINK = "https://i.ibb.co/CKVptFL/sorry-sold-out.png"

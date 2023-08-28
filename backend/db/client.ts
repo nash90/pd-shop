@@ -1,4 +1,4 @@
-import { db } from "../../../pg-core/backend/db/client"
+import { db } from "../../../pd-core/backend/db/client"
 
 const appEnv = process.env.NEXT_PUBLIC_APP_ENV
 
