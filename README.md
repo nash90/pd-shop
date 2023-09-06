@@ -1,6 +1,7 @@
 # Next.js App Plugin
 
-This Next.js app plugin provides a convenient way to integrate both frontend and backend functionality into your Next.js application. To use this plugin, follow the instructions below.
+This Next.js app plugin provides a convenient way to add a ready-made shopping page to your app and integrate both frontend and backend shop functionality into your Next.js application. 
+To use this plugin, follow the instructions below.
 
 
 ## Adding Backend Routes
