@@ -1,8 +1,17 @@
 # Next.js App Plugin
 
-This Next.js app plugin provides a convenient way to add a ready-made shopping page to your app and integrate both frontend and backend shop functionality into your Next.js application. 
+This Next.js Shopping page plugin provides a convenient way to add a ready-made shopping page to your app and integrate both frontend and backend shop functionality into your Next.js application.
 To use this plugin, follow the instructions below.
 
+## Dependencies
+Add/Install following node dependencies if not already
+```
+    "@mui/icons-material": "^5.6.1",
+    "@mui/material": "^5.6.1",
+    "@mui/styles": "^5.11.13",
+    "next": "12.2.0",
+    "react": "^18.2.0",
+```
 
 ## Adding Backend Routes
 
